@@ -4,8 +4,8 @@ import hamburger from "../assets/icons/hamburger.svg";
 import { navLinks } from "../constants";
 function Navbar() {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full border-2">
-        <nav className="flex justify-center max-lg:justify-between  items-center max-container border-2">
+    <header className="padding-x py-8 absolute z-10 w-full ">
+        <nav className="flex justify-center max-lg:justify-between  items-center max-container">
             <a  href="/">
                 <img  src={headerlogo}
                 alt="logo" width={130} height={29}/>
